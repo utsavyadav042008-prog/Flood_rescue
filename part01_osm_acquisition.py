@@ -84,12 +84,44 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable, Optional
 
-import geopandas as gpd
-import pandas as pd
-import requests
-from shapely import make_valid
-from shapely.geometry import LineString, Point, Polygon, box
-from shapely.ops import polygonize, unary_union
+try:
+    import geopandas as gpd  # type: ignore[import-not-found]
+except ModuleNotFoundError as exc:
+    raise RuntimeError(
+        "Missing dependency: geopandas. Install with: "
+        "pip install geopandas shapely pandas requests pyogrio"
+    ) from exc
+
+try:
+    import pandas as pd  # type: ignore[import-not-found]
+except ModuleNotFoundError as exc:
+    raise RuntimeError(
+        "Missing dependency: pandas. Install with: "
+        "pip install geopandas shapely pandas requests pyogrio"
+    ) from exc
+
+try:
+    import requests  # type: ignore[import-not-found]
+except ModuleNotFoundError as exc:
+    raise RuntimeError(
+        "Missing dependency: requests. Install with: "
+        "pip install geopandas shapely pandas requests pyogrio"
+    ) from exc
+
+try:
+    from shapely import make_valid  # pyright: ignore[reportMissingModuleSource]
+    from shapely.geometry import (  # pyright: ignore[reportMissingModuleSource]
+        LineString,
+        Point,
+        Polygon,
+        box,
+    )
+    from shapely.ops import polygonize, unary_union  # pyright: ignore[reportMissingModuleSource]
+except ModuleNotFoundError as exc:
+    raise RuntimeError(
+        "Missing dependency: shapely. Install with: "
+        "pip install geopandas shapely pandas requests pyogrio"
+    ) from exc
 
 log = logging.getLogger("part01")
 
