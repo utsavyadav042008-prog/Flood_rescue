@@ -1,0 +1,11 @@
+# config/train.yaml  --  only list what you want to CHANGE from the defaults.
+# Unknown keys raise an error (typo-proof). Defaults live in train_utils.TrainConfig.
+data_root: /content/drive/MyDrive/KuroSiwo_npz     # <- your data folder
+unit: db
+encoder: resnet34
+encoder_weights: imagenet        # use `null` for random init
+batch_size: 8
+epochs: 30
+lr: 0.001
+seed: 42
+run_name: baseline
