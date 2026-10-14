@@ -1,159 +1,97 @@
-# FloodResQ — GIS, Damage & Connectivity Module
+# FloodResQ
 
-**Multimodal AI Hackathon 2026 · Track B: Mapping Flood Damage from Space**
-**Event:** August 2026 Trishuli River flood, Nepal
-**Owner:** Utsav (Teammate 3 — GIS / Damage / Connectivity Lead)
+Educational prototype for **Multimodal AI Hackathon 2026, Track B: Mapping Flood Damage from Space**.
+Given an **area and a flood date**, it uses Sentinel-1 radar (before/after, same orbit track), optional Sentinel-2,
+the Copernicus DEM and **pre-event** OpenStreetMap to answer three questions for rescue teams:
 
----
+1. **Where did the flood hit?** Flood/debris segmentation on the radar pair (U-Net, or a labelled non-AI fallback).
+2. **What was damaged?** Roads, bridges and buildings overlapping the detected flood.
+3. **Who is cut off?** Settlements with no remaining road path to a hospital or town.
 
-## 1. What this module does
+Plus the **bonus**: trace a flood path downhill from any upstream point and list the settlements along it.
+It is **not an operational tool**. See [Limitations](#limitations).
 
-Satellite-derived flood extents tell us *where the water is*. This module answers the two questions that matter to responders:
+> **How to install, configure, run and deploy: see [`project_instruction.md`](project_instruction.md).**
 
-1. **What was hit?** Which roads, bridges, buildings and facilities fall inside the flood footprint.
-2. **Who is cut off?** Which settlements can no longer reach a hospital, market or district headquarters once flooded roads and bridges are removed from the network.
-
-It takes OpenStreetMap (OSM) data plus a flood-extent layer from the upstream teammates and produces damage overlays, a before/after road network, and a ranked list of isolated settlements.
-
----
-
-## 2. Position in the pipeline
-
-```
- Satellite imagery ──► Flood extent (from Teammates 1 & 2)
-                              │
-                              ▼
-        ┌─────────────── THIS MODULE ───────────────┐
-        │ 01 OSM Acquisition  →  02 Road Graph      │
-        │          ↓                  ↓             │
-        │ 03 Damage Overlay   →  04 Connectivity    │
-        │                         ↓                 │
-        │ 05 Validation, Case Study & Hand-off      │
-        └───────────────────────────────────────────┘
-                              │
-                              ▼
-          Maps, tables and layers for the final demo
-```
-
-**Input from upstream:** flood-extent polygons (GeoJSON / GeoPackage / raster-to-vector output), in a known CRS.
-**Output to downstream:** damage layers, cut-off settlement list, summary statistics and map-ready files.
-
----
-
-## 3. The five parts
-
-| Part | Title | Purpose | Key output |
-|------|-------|---------|-----------|
-| 01 | OSM Data Acquisition & Normalisation | Download OSM data for the study area and clean it into consistent schemas | Normalised roads, bridges, buildings, settlements, facilities |
-| 02 | Road Graph Construction | Turn road lines into a routable graph with travel-time weights | Pre-flood network graph |
-| 03 | Damage Overlay (What Was Hit?) | Intersect flood extent with infrastructure | Flagged features and damage statistics |
-| 04 | Connectivity & Cut-off Settlements (Who Is Cut Off?) | Remove damaged edges and test reachability | List of isolated settlements, detours and unreachable cases |
-| 05 | Validation, Testing, Case Study & Hand-off | Sanity-check results, test the code, run the Trishuli case, package outputs | Validation report, case-study maps, hand-off bundle |
-
-Each part is a standalone, readable file with full Python code, per-function documentation, and notes on any non-obvious tricks, so it can be studied and run independently.
-
----
-
-## 4. Repository layout
-
-> Adjust file names to match what is actually in the repo.
-
-```
-gis_module/
-├── README.md
-├── requirements.txt
-├── part01_osm_acquisition.py
-├── part02_road_graph.py
-├── part03_damage_overlay.py
-├── part04_connectivity.py
-├── part05_validation_handoff.py
-├── data/
-│   ├── raw/          # untouched OSM downloads and flood extent
-│   ├── processed/    # normalised layers
-│   └── outputs/      # final damage + connectivity results
-└── figures/          # maps for the demo and report
-```
-
----
-
-## 5. Setup
-
-**Requirements:** Python 3.10+
-
+## Quick start
 ```bash
-python -m venv .venv
-source .venv/bin/activate        # Windows: .venv\Scripts\activate
-pip install geopandas shapely pyproj osmnx networkx pandas numpy matplotlib
+python -m venv .venv && source .venv/Scripts/activate        # Linux/macOS: source .venv/bin/activate
+pip install -r requirements.txt -r requirements-dev.txt
+python scripts/make_mock_outputs.py                            # contract-valid demo run (synthetic, marked MOCK)
+streamlit run dashboard/app.py                                 # then: "Load cached demo"
+python -m pipeline.analyze --aoi config/example_aoi.json --date 2026-08-26        # real run
 ```
 
----
+## How it works
 
-## 6. How to run
+```
+AOI + flood date
+   |-- acquire  (T1)  Sentinel-1 same-track pair -> 10 m UTM grid, DEM, slope, layover/shadow + permanent-water masks
+   |-- osm      (T1+T3) pre-event OSM (ohsome; Overpass-attic fallback) -> roads split into graph segments
+   v
+ infer       (T2)  U-Net from a verified model package, else change detection (water darkening + debris brightening)
+ damage      (T3)  flood polygons x roads / bridges / buildings
+ connectivity(T3)  remove flooded segments + bridges -> Dijkstra from all hospitals/towns -> cut-off settlements
+ summarize, report, figures (T4) -> summary.json (single source of numbers), EN + Nepali one-page report, PNGs
+ dashboard   (T4)  Streamlit map, KPI cards, tables, report, flood-path bonus, case-study tab
+```
 
-Run the parts in order. Each part reads the previous part's output.
+Every stage reads and writes fixed files in one run folder (`outputs/<area>_<date>_<id>/`) and is validated
+against the data contract in [`pipeline/contracts.py`](pipeline/contracts.py) (rendered in `docs/contracts.md`).
+Independent stages run in parallel; a failed optional stage shows "not available", never a fake zero.
 
+| Folder | Owner | What is in it |
+|---|---|---|
+| `acquisition/` | T1 (+T3) | Sentinel-1/2 search + download (`sentinel.py`, `sentinel2.py`), DEM tiles (`dem.py`), OSM ohsome client (`ohsome.py`), Overpass fallback + tag normalisers (`overpass.py`), stage glue (`s1_stage.py`, `osm.py`) |
+| `preprocessing/` | T1 | SNAP chain (`sentinel1.py`), Planetary Computer RTC backend (`s1_rtc.py`), common grid + DEM masks (`alignment.py`, `utm.py`), Sentinel-2 layers (`sentinel2.py`) |
+| `models/` | T2 | data (`dataset.py`), U-Net training (`train.py`), evaluation (`evaluate.py`, `eval_metrics.py`), tiled inference + packaging (`inference.py`, `tiling.py`, `pack_model.py`), fallback (`change_detection.py`), stage glue (`stage.py`) |
+| `gis/` | T3 | road graph (`road_graph.py`), damage overlay (`damage_overlay.py`, stage `damage.py`), cut-off engine (`cutoff.py`, stage `connectivity.py`), validation toolkit (`validation.py`), flood-path bonus (`flood_path.py`) |
+| `pipeline/`, `dashboard/`, `reports/`, `scripts/` | T4 | orchestration, contracts, summary, figures, Streamlit app, EN/NE report, audit tools |
+| `evaluation/` | T2+T4 | check-only comparison with the reference maps (`case_study.py`, `model_case_study.py`, `compare.py`, `ems_reference.py`), oracle |
+
+## Model and training data
+Flood segmentation: U-Net (ResNet-34 encoder, 6 input channels: before/after/change VV+VH) trained on Kuro Siwo
+(Bountos et al., 2024). Training, threshold selection on validation only, Himalayan hold-out evaluation and packaging:
+`models/train.py`, `models/evaluate.py`, `models/pack_model.py` (details in `docs/teams/T2_ai_README.md`).
+The packaged model goes to `models/release/model_package/`. Without it the pipeline uses the non-AI fallback and
+says so on every output.
+
+## Case study: August 2026 Trishuli flood
 ```bash
-python part01_osm_acquisition.py
-python part02_road_graph.py
-python part03_damage_overlay.py
-python part04_connectivity.py
-python part05_validation_handoff.py
+python -m pipeline.analyze --aoi config/example_aoi.json --date 2026-08-26
+python -m evaluation.case_study --run outputs/<run_folder> \
+    --reference data/reference/<flood_extent>.geojson --reference-aoi data/reference/<aoi>.geojson
+```
+The official Copernicus EMS maps (activation EMSR927) are used **only to check** results; they are never an input
+(`data/reference/` is git-ignored and read only by `evaluation/`).
+
+## Limitations
+Satellites revisit every few days (no early warning; the map shows the situation at image time); radar shadow and
+layover in steep terrain cause errors; 10 m pixels miss small buildings; "affected" is overlap with the flood, not
+verified damage; cut-off results depend on OpenStreetMap completeness; without a trained model the map comes from a
+labelled non-AI fallback. Full list: [`docs/limitations.md`](docs/limitations.md).
+
+## Tests
+```bash
+python -m unittest discover -s tests -t .      # or: pytest -q
+python scripts/audit_submission.py             # final checklist
 ```
 
-Before the first run, set the study-area boundary and the path to the flood-extent file at the top of Part 01 and Part 03.
+## Data rules (hackathon)
+Allowed inputs: Sentinel-1/2, Copernicus DEM, OpenStreetMap as it was before the event, the listed training
+datasets. Published damage maps and post-event OSM edits are check-only. The OSM snapshot date is forced to be before
+the event (and every feature's last-edit date is audited); a test and the audit script verify that pipeline code
+never references check-only data.
 
----
+## Attribution
+Contains modified Copernicus Sentinel data 2026.
 
-## 7. Inputs and outputs
+Produced using Copernicus WorldDEM-30 © DLR e.V. 2010–2014 and © Airbus Defence and Space GmbH 2014–2018 provided under COPERNICUS by the European Union and ESA; all rights reserved.
 
-**Inputs**
-- Study-area boundary (Trishuli corridor, Nepal)
-- OSM data (downloaded in Part 01)
-- Flood-extent polygons from the satellite analysis team
+© OpenStreetMap contributors.
 
-**Outputs**
-- Normalised infrastructure layers
-- Routable road graph (pre-flood and post-flood)
-- Damage overlay: flooded roads, bridges, buildings, facilities
-- Cut-off settlement list with the reason each is isolated
-- Summary tables (counts, lengths, affected population proxies where available)
-- Map figures for the demo
+Training data and credits: `docs/attribution.md` (Kuro Siwo: Bountos et al., 2024).
 
----
-
-## 8. Design notes and caveats
-
-- **CRS discipline.** All geometry is reprojected to a metric CRS before measuring lengths or buffering; results are exported back to EPSG:4326 for web maps.
-- **OSM completeness varies.** Rural Nepal has uneven road and building coverage, so "not cut off" means "not cut off *according to mapped roads*". Unmapped trails are not counted.
-- **Flood extent is an input, not ground truth.** Damage results are only as good as the upstream flood mask, including its cloud and shadow errors.
-- **Road status is binary.** A road is treated as passable or impassable. Partial damage and depth-based passability are out of scope.
-- **Bridges matter most.** A single flooded bridge can isolate a whole valley, so bridges are handled explicitly in Parts 03 and 04.
-
----
-
-## 9. Validation
-
-Part 05 covers:
-- Unit tests for the core functions (geometry cleaning, graph build, overlay logic)
-- Sanity checks (feature counts before and after normalisation, graph connectivity before the flood)
-- Spot-checks of flagged features against imagery or known reports
-- The Trishuli case study with maps
-
----
-
-## 10. Hand-off
-
-At the end of Part 05, the following are handed to the team for the final demo and report:
-- `data/outputs/` (damage and connectivity layers)
-- `figures/` (maps)
-- Summary statistics table
-- A short list of known limitations (Section 8)
-
----
-
-## 11. Team
-
-| Role | Owner |
-|------|-------|
-| GIS / Damage / Connectivity Lead (Teammate 3) | Utsav |
-| Other teammates | See the main project README / team plan |
+## Team
+Four-person team: T1 satellite data, T2 AI model, T3 GIS analysis, T4 integration/dashboard. Each teammate's
+original notes are in `docs/teams/` and `docs/PART*_GUIDE.md`.

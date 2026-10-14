@@ -1,0 +1,34 @@
+# environments
+.venv/
+.env
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+# data and outputs (never commit these)
+data/raw/
+data/interim/
+data/processed/
+data/cache/
+data/reference/
+outputs/
+# model checkpoints (final weights go to models/release/ after a team decision)
+*.pt
+*.pth
+*.ckpt
+!models/release/*.pt
+# the packaged model (best.pt ~100 MB): share it via Git LFS or a release asset, see project_instruction.md
+models/release/model_package/
+# demo video (large; submitted separately, never committed)
+submission/*.mp4
+submission/*.mov
+submission/*.mkv
+submission/*.webm
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# atomic-write temp files (pipeline/fileio.py)
+*.tmp

@@ -329,7 +329,8 @@ def snap_to_nodes(G: nx.Graph, gdf: gpd.GeoDataFrame, max_snap_m: float) -> gpd.
 # =====================================================================================
 # 6. THE HEART: ANALYSE ONE SCENARIO
 # =====================================================================================
-def analyse_scenario(H: nx.Graph, settlements: gpd.GeoDataFrame, hub_nodes: list, cfg: Config) -> dict:
+def analyse_scenario(H: nx.Graph, settlements: gpd.GeoDataFrame, hub_nodes: list, cfg: Config,
+                     hub_names: dict | None = None) -> dict:
     """
     Run the full "who is cut off?" analysis for ONE damage scenario.
 
@@ -373,7 +374,10 @@ def analyse_scenario(H: nx.Graph, settlements: gpd.GeoDataFrame, hub_nodes: list
             status = "DEGRADED" if degraded else "CONNECTED"
 
         # Which damaged edges sit on the ORIGINAL (pre-flood) route? Those are the culprits.
-        blockers = []
+        blockers, blocking_ids = [], []
+        nearest_hub = None
+        if tb is not None and n in base_paths:
+            nearest_hub = (hub_names or {}).get(base_paths[n][0])
         if status in ("CUT_OFF", "DEGRADED"):
             path = base_paths[n]
             for a, b in zip(path[:-1], path[1:]):
@@ -383,6 +387,7 @@ def analyse_scenario(H: nx.Graph, settlements: gpd.GeoDataFrame, hub_nodes: list
                     # For DEGRADED every blocked edge on the old route adds to the detour.
                     if status == "DEGRADED" or comp_id[a] != comp_id[b]:
                         blockers.append(_edge_label(a, b, H))
+                        blocking_ids += [s["osmid"] for s in H[a][b]["info"]]
 
         rows.append({
             "baseline_min": None if tb is None else round(tb / 60, 1),
@@ -391,6 +396,8 @@ def analyse_scenario(H: nx.Graph, settlements: gpd.GeoDataFrame, hub_nodes: list
             "status": status,
             "comp": comp_id.get(n),
             "blocked_on_route": ";".join(blockers),
+            "blocking_ids": list(dict.fromkeys(blocking_ids)),     # unique, route order
+            "nearest_hub": nearest_hub,
         })
 
     res = pd.DataFrame(rows, index=settlements.index)
@@ -409,7 +416,8 @@ def analyse_scenario(H: nx.Graph, settlements: gpd.GeoDataFrame, hub_nodes: list
             "pocket_id": pid,
             "n_settlements": len(grp),
             "population": int(grp["pop"].sum()),
-            "settlements": "; ".join(grp[cfg.name_col].astype(str)) if cfg.name_col in grp else "",
+            "settlements": "; ".join(str(v) for v in grp[cfg.name_col] if isinstance(v, str))
+                           if cfg.name_col in grp else "",
             "centroid_lon": float(grp.geometry.x.mean()),
             "centroid_lat": float(grp.geometry.y.mean()),
         })
@@ -555,7 +563,7 @@ def plot_map(result: dict, hubs: gpd.GeoDataFrame, path: Path) -> None:
 # 9. GLUE
 # =====================================================================================
 def run_pipeline(G: nx.MultiDiGraph, settlements: gpd.GeoDataFrame, hubs: gpd.GeoDataFrame,
-                 cfg: Config) -> dict:
+                 cfg: Config, hub_name_col: str = "name") -> dict:
     """
     Snap once, then run every scenario.  Returns {scenario_name: result_dict}.
 
@@ -568,11 +576,15 @@ def run_pipeline(G: nx.MultiDiGraph, settlements: gpd.GeoDataFrame, hubs: gpd.Ge
     hub_nodes = list(hubs.loc[hubs["snap_ok"], "node"].unique())
     if not hub_nodes:
         raise ValueError("No hub could be snapped to the road graph — check hub coordinates/CRS.")
+    hub_names: dict = {}
+    if hub_name_col in hubs.columns:
+        for node, name in zip(hubs.loc[hubs["snap_ok"], "node"], hubs.loc[hubs["snap_ok"], hub_name_col]):
+            hub_names.setdefault(node, str(name))
 
     results = {}
     for name, levels in cfg.scenarios.items():              # TRICK #7
         H = collapse_to_simple_graph(G, {x.lower() for x in levels}, cfg)
-        results[name] = analyse_scenario(H, settlements, hub_nodes, cfg)
+        results[name] = analyse_scenario(H, settlements, hub_nodes, cfg, hub_names)
         results[name]["hubs"] = hubs
     return results
 

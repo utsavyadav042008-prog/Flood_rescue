@@ -1,0 +1,74 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.248908,
+          28.140748
+        ]
+      },
+      "properties": {
+        "id": "node/A",
+        "name": "Village A",
+        "name_ne": "गाउँ A"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.340221,
+          28.146637
+        ]
+      },
+      "properties": {
+        "id": "node/B",
+        "name": "Village B",
+        "name_ne": "गाउँ B"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.376906,
+          28.138597
+        ]
+      },
+      "properties": {
+        "id": "node/C",
+        "name": "Village C",
+        "name_ne": "गाउँ C"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.280207,
+          28.10047
+        ]
+      },
+      "properties": {
+        "id": "node/D",
+        "name": "Village D",
+        "name_ne": "गाउँ D"
+      }
+    }
+  ],
+  "provenance": {
+    "producer": "mock.osm",
+    "source": "MOCK synthetic OSM-like data",
+    "crs": "EPSG:4326",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

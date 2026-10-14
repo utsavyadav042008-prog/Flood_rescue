@@ -1,0 +1,23 @@
+# Streamlit server + theme settings for FloodResQ (used by `streamlit run dashboard/app.py`).
+[server]
+headless = true              # no browser auto-open (servers, Docker)
+port = 8501
+maxUploadSize = 200
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"      # hide the developer "Deploy" button
+
+[runner]
+fastReruns = true
+
+[theme]
+base = "light"
+primaryColor = "#12355B"
+backgroundColor = "#F4F6FA"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#0F172A"
+font = "sans serif"

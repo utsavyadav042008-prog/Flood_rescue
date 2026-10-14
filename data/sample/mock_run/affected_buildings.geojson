@@ -1,0 +1,643 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.362285,
+              28.139212
+            ],
+            [
+              85.362489,
+              28.139215
+            ],
+            [
+              85.362486,
+              28.139395
+            ],
+            [
+              85.362282,
+              28.139393
+            ],
+            [
+              85.362285,
+              28.139212
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b32",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.266214,
+              28.118074
+            ],
+            [
+              85.266418,
+              28.118077
+            ],
+            [
+              85.266415,
+              28.118258
+            ],
+            [
+              85.266212,
+              28.118255
+            ],
+            [
+              85.266214,
+              28.118074
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b34",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.368512,
+              28.132645
+            ],
+            [
+              85.368715,
+              28.132648
+            ],
+            [
+              85.368712,
+              28.132828
+            ],
+            [
+              85.368509,
+              28.132826
+            ],
+            [
+              85.368512,
+              28.132645
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b36",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.328172,
+              28.129763
+            ],
+            [
+              85.328375,
+              28.129765
+            ],
+            [
+              85.328372,
+              28.129946
+            ],
+            [
+              85.328169,
+              28.129943
+            ],
+            [
+              85.328172,
+              28.129763
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b37",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.375536,
+              28.129622
+            ],
+            [
+              85.37574,
+              28.129624
+            ],
+            [
+              85.375737,
+              28.129805
+            ],
+            [
+              85.375534,
+              28.129802
+            ],
+            [
+              85.375536,
+              28.129622
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b38",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.256874,
+              28.124123
+            ],
+            [
+              85.257077,
+              28.124125
+            ],
+            [
+              85.257074,
+              28.124306
+            ],
+            [
+              85.256871,
+              28.124303
+            ],
+            [
+              85.256874,
+              28.124123
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b39",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 0.8,
+        "confidence": 0.82
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.281683,
+              28.110196
+            ],
+            [
+              85.281886,
+              28.110199
+            ],
+            [
+              85.281884,
+              28.110379
+            ],
+            [
+              85.28168,
+              28.110377
+            ],
+            [
+              85.281683,
+              28.110196
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b42",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.390851,
+              28.119955
+            ],
+            [
+              85.391054,
+              28.119958
+            ],
+            [
+              85.391051,
+              28.120138
+            ],
+            [
+              85.390848,
+              28.120136
+            ],
+            [
+              85.390851,
+              28.119955
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b43",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.228262,
+              28.138641
+            ],
+            [
+              85.228466,
+              28.138644
+            ],
+            [
+              85.228463,
+              28.138824
+            ],
+            [
+              85.228259,
+              28.138821
+            ],
+            [
+              85.228262,
+              28.138641
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b45",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.353015,
+              28.138443
+            ],
+            [
+              85.353219,
+              28.138445
+            ],
+            [
+              85.353216,
+              28.138626
+            ],
+            [
+              85.353013,
+              28.138623
+            ],
+            [
+              85.353015,
+              28.138443
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b46",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.219889,
+              28.135183
+            ],
+            [
+              85.220092,
+              28.135185
+            ],
+            [
+              85.220089,
+              28.135366
+            ],
+            [
+              85.219886,
+              28.135363
+            ],
+            [
+              85.219889,
+              28.135183
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b47",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.390587,
+              28.120272
+            ],
+            [
+              85.390791,
+              28.120275
+            ],
+            [
+              85.390788,
+              28.120455
+            ],
+            [
+              85.390584,
+              28.120453
+            ],
+            [
+              85.390587,
+              28.120272
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b48",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.210401,
+              28.133609
+            ],
+            [
+              85.210605,
+              28.133612
+            ],
+            [
+              85.210602,
+              28.133792
+            ],
+            [
+              85.210398,
+              28.13379
+            ],
+            [
+              85.210401,
+              28.133609
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b50",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.33291,
+              28.133855
+            ],
+            [
+              85.333114,
+              28.133858
+            ],
+            [
+              85.333111,
+              28.134038
+            ],
+            [
+              85.332908,
+              28.134036
+            ],
+            [
+              85.33291,
+              28.133855
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b51",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.257181,
+              28.127084
+            ],
+            [
+              85.257385,
+              28.127086
+            ],
+            [
+              85.257382,
+              28.127267
+            ],
+            [
+              85.257178,
+              28.127264
+            ],
+            [
+              85.257181,
+              28.127084
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b52",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.228636,
+              28.137083
+            ],
+            [
+              85.228839,
+              28.137086
+            ],
+            [
+              85.228837,
+              28.137266
+            ],
+            [
+              85.228633,
+              28.137263
+            ],
+            [
+              85.228636,
+              28.137083
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b53",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 1.0,
+        "confidence": 0.9
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              85.368423,
+              28.132279
+            ],
+            [
+              85.368627,
+              28.132281
+            ],
+            [
+              85.368624,
+              28.132462
+            ],
+            [
+              85.36842,
+              28.132459
+            ],
+            [
+              85.368423,
+              28.132279
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/b55",
+        "object_type": "building",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 0.8,
+        "confidence": 0.82
+      }
+    }
+  ],
+  "provenance": {
+    "producer": "mock.gis",
+    "source": "MOCK mask x MOCK OSM",
+    "crs": "EPSG:4326",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

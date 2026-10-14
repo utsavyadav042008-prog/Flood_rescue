@@ -1,0 +1,20 @@
+{
+  "source": "MOCK synthetic data (not real imagery)",
+  "before_date": "2026-08-20",
+  "after_date": "2026-09-01",
+  "relative_orbit_before": 99,
+  "relative_orbit_after": 99,
+  "orbit_direction": "ASCENDING",
+  "crs": "EPSG:32645",
+  "pixel_size_m": 50.0,
+  "polarisation": "VV",
+  "provenance": {
+    "producer": "mock.acquire",
+    "source": "MOCK synthetic data (not real imagery)",
+    "crs": "EPSG:32645",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

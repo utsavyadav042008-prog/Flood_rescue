@@ -3,6 +3,15 @@
 FloodResQ  |  PART 01  |  OSM Data Acquisition & Normalisation
 =====================================================================
 
+INTEGRATION NOTE (read first)
+-----------------------------
+In the integrated pipeline this module is the FALLBACK OSM source and the home
+of the tag normalisers.  The primary source is ``acquisition/ohsome.py`` (the
+ohsome API named in the brief).  Plain Overpass returns the CURRENT map, which
+the data rules forbid for post-event dates, so ``Config.date`` was added: when
+set, every query carries ``[date:"..."]`` and Overpass answers from its
+history ("attic") database, i.e. the map AS IT WAS on that date.
+
 WHAT THIS FILE DOES
 -------------------
 Downloads OpenStreetMap (OSM) data for the Trishuli flood area from the
@@ -146,6 +155,9 @@ class Config:
     max_retries: int = 4          # attempts per tile before giving up
     polite_pause: float = 1.0     # seconds between uncached requests
     refresh: bool = False         # True = ignore cache
+    # Historical snapshot "YYYY-MM-DD" (attic query). None = current map, which
+    # is NOT allowed as a pipeline input for a past event (data rules).
+    date: Optional[str] = None
 
     # Public Overpass servers; we rotate through them on failure (TRICK #9)
     mirrors: tuple[str, ...] = (
@@ -228,8 +240,10 @@ class OverpassClient:
         we would have to join them back together ourselves).
         """
         w, s, e, n = bbox
+        # [date:...] = attic query: the map as it was on that date (data rules).
+        attic = f'[date:"{self.cfg.date}T00:00:00Z"]' if self.cfg.date else ""
         return (
-            f"[out:json][timeout:{self.cfg.overpass_timeout}]"
+            f"[out:json][timeout:{self.cfg.overpass_timeout}]{attic}"
             f"[bbox:{s:.6f},{w:.6f},{n:.6f},{e:.6f}];\n"
             f"(\n{body}\n);\n"
             f"out geom;"

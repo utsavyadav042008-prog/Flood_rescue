@@ -603,7 +603,7 @@ def evaluate_accuracy(report: Report, cfg: Config, edges: gpd.GeoDataFrame,
     """Compare predicted damaged edges to a reference layer; write accuracy CSV."""
     if reference is None or len(reference) == 0:
         report.add("Accuracy: reference layer available", False,
-                   "skipped (no reference file) — add UNOSAT/manual labels to enable", severity="warn")
+                   "skipped (no reference file) — add check-only reference labels to enable", severity="warn")
         return None
     reference = align_to(reference, edges.crs)
     res = tolerant_precision_recall(edges.geometry[pred_flags].values, reference.geometry.values, cfg.match_tol_m)

@@ -1,0 +1,32 @@
+# FloodResQ core + dashboard (Python 3.10 - 3.12 recommended).
+# On Windows, if rasterio/geopandas/pyproj fail to build, install them from conda-forge
+# (see project_instruction.md) and then run this file again.
+numpy
+scipy
+pandas
+pyyaml
+requests
+# --- geospatial
+rasterio
+rioxarray
+xarray
+geopandas
+pyogrio
+shapely>=2.0
+pyproj
+networkx
+osmnx
+# --- satellite data access
+pystac-client
+planetary-computer
+# --- analysis / figures
+scikit-image
+scikit-learn
+matplotlib
+pillow
+# --- dashboard + report
+streamlit
+folium
+streamlit-folium
+plotly
+reportlab

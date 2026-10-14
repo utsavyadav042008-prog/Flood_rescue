@@ -1,0 +1,7 @@
+# AI model (U-Net) - training and AI inference.  Large download; without these the
+# pipeline still runs and uses the non-AI change-detection fallback (clearly labelled).
+# GPU users: install torch from https://pytorch.org first (pick your CUDA version).
+torch
+torchvision
+segmentation-models-pytorch
+albumentations

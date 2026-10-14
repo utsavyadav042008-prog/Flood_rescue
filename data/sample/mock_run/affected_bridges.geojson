@@ -1,0 +1,69 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279941,
+            28.117162
+          ],
+          [
+            85.279955,
+            28.11626
+          ],
+          [
+            85.27997,
+            28.115358
+          ],
+          [
+            85.279984,
+            28.114455
+          ],
+          [
+            85.279998,
+            28.113553
+          ],
+          [
+            85.280013,
+            28.112651
+          ],
+          [
+            85.280027,
+            28.111748
+          ],
+          [
+            85.280042,
+            28.110846
+          ],
+          [
+            85.280056,
+            28.109944
+          ],
+          [
+            85.28007,
+            28.109042
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/bridge-1",
+        "object_type": "bridge",
+        "impact_status": "potentially_damaged",
+        "impact_fraction": 0.6,
+        "confidence": 0.79
+      }
+    }
+  ],
+  "provenance": {
+    "producer": "mock.gis",
+    "source": "MOCK mask x MOCK OSM",
+    "crs": "EPSG:4326",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

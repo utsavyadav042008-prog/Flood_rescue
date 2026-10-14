@@ -1,0 +1,4656 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2043,
+            28.136145
+          ],
+          [
+            85.205307,
+            28.136826
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#0",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.205307,
+            28.136826
+          ],
+          [
+            85.206314,
+            28.137494
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#1",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.206314,
+            28.137494
+          ],
+          [
+            85.207321,
+            28.138147
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#2",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.207321,
+            28.138147
+          ],
+          [
+            85.208328,
+            28.138784
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#3",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.208328,
+            28.138784
+          ],
+          [
+            85.209336,
+            28.139401
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#4",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.209336,
+            28.139401
+          ],
+          [
+            85.210344,
+            28.139999
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#5",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.210344,
+            28.139999
+          ],
+          [
+            85.211353,
+            28.140575
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#6",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.211353,
+            28.140575
+          ],
+          [
+            85.212362,
+            28.141127
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#7",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.212362,
+            28.141127
+          ],
+          [
+            85.213371,
+            28.141655
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#8",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.213371,
+            28.141655
+          ],
+          [
+            85.214381,
+            28.142156
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#9",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.214381,
+            28.142156
+          ],
+          [
+            85.215391,
+            28.14263
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#10",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.215391,
+            28.14263
+          ],
+          [
+            85.216402,
+            28.143075
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#11",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.216402,
+            28.143075
+          ],
+          [
+            85.217413,
+            28.14349
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#12",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.217413,
+            28.14349
+          ],
+          [
+            85.218425,
+            28.143874
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#13",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.218425,
+            28.143874
+          ],
+          [
+            85.219437,
+            28.144226
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#14",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.219437,
+            28.144226
+          ],
+          [
+            85.22045,
+            28.144545
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#15",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.22045,
+            28.144545
+          ],
+          [
+            85.221464,
+            28.144829
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#16",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.221464,
+            28.144829
+          ],
+          [
+            85.222478,
+            28.14508
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#17",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.222478,
+            28.14508
+          ],
+          [
+            85.223492,
+            28.145295
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#18",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.223492,
+            28.145295
+          ],
+          [
+            85.224507,
+            28.145474
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#19",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.224507,
+            28.145474
+          ],
+          [
+            85.225523,
+            28.145617
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#20",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.225523,
+            28.145617
+          ],
+          [
+            85.22654,
+            28.145723
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#21",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.22654,
+            28.145723
+          ],
+          [
+            85.227557,
+            28.145792
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#22",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.227557,
+            28.145792
+          ],
+          [
+            85.228574,
+            28.145824
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#23",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.228574,
+            28.145824
+          ],
+          [
+            85.229593,
+            28.14582
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#24",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.229593,
+            28.14582
+          ],
+          [
+            85.230611,
+            28.145778
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#25",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.230611,
+            28.145778
+          ],
+          [
+            85.231631,
+            28.145699
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#26",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.231631,
+            28.145699
+          ],
+          [
+            85.232651,
+            28.145584
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#27",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.232651,
+            28.145584
+          ],
+          [
+            85.233672,
+            28.145432
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#28",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.233672,
+            28.145432
+          ],
+          [
+            85.234693,
+            28.145244
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#29",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.234693,
+            28.145244
+          ],
+          [
+            85.235715,
+            28.145021
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#30",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.235715,
+            28.145021
+          ],
+          [
+            85.236737,
+            28.144764
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#31",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.236737,
+            28.144764
+          ],
+          [
+            85.23776,
+            28.144472
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#32",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.23776,
+            28.144472
+          ],
+          [
+            85.238783,
+            28.144148
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#33",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.238783,
+            28.144148
+          ],
+          [
+            85.239807,
+            28.143791
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#34",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.239807,
+            28.143791
+          ],
+          [
+            85.240832,
+            28.143403
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#35",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.240832,
+            28.143403
+          ],
+          [
+            85.241857,
+            28.142986
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#36",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.241857,
+            28.142986
+          ],
+          [
+            85.242882,
+            28.142539
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#37",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.242882,
+            28.142539
+          ],
+          [
+            85.243908,
+            28.142065
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#38",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.243908,
+            28.142065
+          ],
+          [
+            85.244934,
+            28.141564
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#39",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.244934,
+            28.141564
+          ],
+          [
+            85.245961,
+            28.141039
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#40",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.245961,
+            28.141039
+          ],
+          [
+            85.246988,
+            28.14049
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#41",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.246988,
+            28.14049
+          ],
+          [
+            85.248016,
+            28.139919
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#42",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.248016,
+            28.139919
+          ],
+          [
+            85.249043,
+            28.139328
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#43",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.249043,
+            28.139328
+          ],
+          [
+            85.250071,
+            28.138719
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#44",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.250071,
+            28.138719
+          ],
+          [
+            85.2511,
+            28.138093
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#45",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2511,
+            28.138093
+          ],
+          [
+            85.252128,
+            28.137451
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#46",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.252128,
+            28.137451
+          ],
+          [
+            85.253157,
+            28.136796
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#47",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.253157,
+            28.136796
+          ],
+          [
+            85.254186,
+            28.13613
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#48",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.254186,
+            28.13613
+          ],
+          [
+            85.255215,
+            28.135454
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#49",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.255215,
+            28.135454
+          ],
+          [
+            85.256244,
+            28.134771
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#50",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.256244,
+            28.134771
+          ],
+          [
+            85.257273,
+            28.134081
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#51",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.257273,
+            28.134081
+          ],
+          [
+            85.258302,
+            28.133388
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#52",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.258302,
+            28.133388
+          ],
+          [
+            85.259332,
+            28.132692
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#53",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.259332,
+            28.132692
+          ],
+          [
+            85.260361,
+            28.131997
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#54",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.260361,
+            28.131997
+          ],
+          [
+            85.26139,
+            28.131303
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#55",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.26139,
+            28.131303
+          ],
+          [
+            85.262419,
+            28.130614
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#56",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.262419,
+            28.130614
+          ],
+          [
+            85.263448,
+            28.12993
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#57",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.263448,
+            28.12993
+          ],
+          [
+            85.264477,
+            28.129253
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#58",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.264477,
+            28.129253
+          ],
+          [
+            85.265506,
+            28.128587
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#59",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.265506,
+            28.128587
+          ],
+          [
+            85.266535,
+            28.127932
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#60",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.266535,
+            28.127932
+          ],
+          [
+            85.267563,
+            28.12729
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#61",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.267563,
+            28.12729
+          ],
+          [
+            85.268591,
+            28.126663
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#62",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.268591,
+            28.126663
+          ],
+          [
+            85.269619,
+            28.126052
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#63",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.269619,
+            28.126052
+          ],
+          [
+            85.270646,
+            28.125461
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#64",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.270646,
+            28.125461
+          ],
+          [
+            85.271674,
+            28.124889
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#65",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.271674,
+            28.124889
+          ],
+          [
+            85.2727,
+            28.12434
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#66",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2727,
+            28.12434
+          ],
+          [
+            85.273727,
+            28.123813
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#67",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.273727,
+            28.123813
+          ],
+          [
+            85.274753,
+            28.123312
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#68",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.274753,
+            28.123312
+          ],
+          [
+            85.275778,
+            28.122836
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#69",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.275778,
+            28.122836
+          ],
+          [
+            85.276803,
+            28.122389
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#70",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.276803,
+            28.122389
+          ],
+          [
+            85.277828,
+            28.12197
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#71",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.277828,
+            28.12197
+          ],
+          [
+            85.278852,
+            28.121581
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#72",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.278852,
+            28.121581
+          ],
+          [
+            85.279876,
+            28.121223
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#73",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279876,
+            28.121223
+          ],
+          [
+            85.280899,
+            28.120897
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#74",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280899,
+            28.120897
+          ],
+          [
+            85.281922,
+            28.120604
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#75",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.281922,
+            28.120604
+          ],
+          [
+            85.282944,
+            28.120345
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#76",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.282944,
+            28.120345
+          ],
+          [
+            85.283965,
+            28.120121
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#77",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.283965,
+            28.120121
+          ],
+          [
+            85.284986,
+            28.119932
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#78",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.284986,
+            28.119932
+          ],
+          [
+            85.286007,
+            28.119779
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#79",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.286007,
+            28.119779
+          ],
+          [
+            85.287026,
+            28.119662
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#80",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.287026,
+            28.119662
+          ],
+          [
+            85.288046,
+            28.119581
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#81",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.288046,
+            28.119581
+          ],
+          [
+            85.289064,
+            28.119538
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#82",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.289064,
+            28.119538
+          ],
+          [
+            85.290082,
+            28.119531
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#83",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.290082,
+            28.119531
+          ],
+          [
+            85.2911,
+            28.119562
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#84",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.2911,
+            28.119562
+          ],
+          [
+            85.292117,
+            28.11963
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#85",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.292117,
+            28.11963
+          ],
+          [
+            85.293133,
+            28.119734
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#86",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.293133,
+            28.119734
+          ],
+          [
+            85.294149,
+            28.119875
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#87",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.294149,
+            28.119875
+          ],
+          [
+            85.295164,
+            28.120052
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#88",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.295164,
+            28.120052
+          ],
+          [
+            85.296178,
+            28.120263
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#89",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.296178,
+            28.120263
+          ],
+          [
+            85.297192,
+            28.120504
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#90",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.297192,
+            28.120504
+          ],
+          [
+            85.298206,
+            28.120767
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#91",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.298206,
+            28.120767
+          ],
+          [
+            85.29922,
+            28.121039
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#92",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.29922,
+            28.121039
+          ],
+          [
+            85.300234,
+            28.121291
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#93",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.300234,
+            28.121291
+          ],
+          [
+            85.301249,
+            28.121483
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#94",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.301249,
+            28.121483
+          ],
+          [
+            85.302266,
+            28.121555
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#95",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.302266,
+            28.121555
+          ],
+          [
+            85.303285,
+            28.121444
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#96",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.303285,
+            28.121444
+          ],
+          [
+            85.304309,
+            28.1211
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#97",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.304309,
+            28.1211
+          ],
+          [
+            85.305336,
+            28.120519
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#98",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.305336,
+            28.120519
+          ],
+          [
+            85.306365,
+            28.119769
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#99",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.306365,
+            28.119769
+          ],
+          [
+            85.307395,
+            28.119008
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#100",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.307395,
+            28.119008
+          ],
+          [
+            85.308422,
+            28.118455
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#101",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.308422,
+            28.118455
+          ],
+          [
+            85.309442,
+            28.118334
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#102",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.309442,
+            28.118334
+          ],
+          [
+            85.310452,
+            28.118803
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#103",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.310452,
+            28.118803
+          ],
+          [
+            85.311453,
+            28.119895
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#104",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.311453,
+            28.119895
+          ],
+          [
+            85.312446,
+            28.121503
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#105",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.312446,
+            28.121503
+          ],
+          [
+            85.313434,
+            28.123423
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#106",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.313434,
+            28.123423
+          ],
+          [
+            85.314421,
+            28.125421
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#107",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.314421,
+            28.125421
+          ],
+          [
+            85.315409,
+            28.127302
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#108",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.315409,
+            28.127302
+          ],
+          [
+            85.316401,
+            28.128951
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#109",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.316401,
+            28.128951
+          ],
+          [
+            85.317398,
+            28.130336
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#110",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.317398,
+            28.130336
+          ],
+          [
+            85.318398,
+            28.131487
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#111",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.318398,
+            28.131487
+          ],
+          [
+            85.319401,
+            28.132461
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#112",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.319401,
+            28.132461
+          ],
+          [
+            85.320405,
+            28.133318
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#113",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.320405,
+            28.133318
+          ],
+          [
+            85.321411,
+            28.134105
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#114",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.321411,
+            28.134105
+          ],
+          [
+            85.322418,
+            28.134854
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#115",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.322418,
+            28.134854
+          ],
+          [
+            85.323424,
+            28.135581
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#116",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.323424,
+            28.135581
+          ],
+          [
+            85.324431,
+            28.136295
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#117",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.324431,
+            28.136295
+          ],
+          [
+            85.325439,
+            28.136998
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#118",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.325439,
+            28.136998
+          ],
+          [
+            85.326446,
+            28.137691
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#119",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.326446,
+            28.137691
+          ],
+          [
+            85.327453,
+            28.138371
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#120",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.327453,
+            28.138371
+          ],
+          [
+            85.328461,
+            28.139039
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#121",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.328461,
+            28.139039
+          ],
+          [
+            85.329469,
+            28.139691
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#122",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.329469,
+            28.139691
+          ],
+          [
+            85.330477,
+            28.140326
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#123",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.330477,
+            28.140326
+          ],
+          [
+            85.331486,
+            28.140943
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#124",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.331486,
+            28.140943
+          ],
+          [
+            85.332495,
+            28.14154
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#125",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.332495,
+            28.14154
+          ],
+          [
+            85.333504,
+            28.142115
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#126",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.333504,
+            28.142115
+          ],
+          [
+            85.334514,
+            28.142666
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#127",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.334514,
+            28.142666
+          ],
+          [
+            85.335524,
+            28.143193
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#128",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.335524,
+            28.143193
+          ],
+          [
+            85.336534,
+            28.143694
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#129",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.336534,
+            28.143694
+          ],
+          [
+            85.337545,
+            28.144167
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#130",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.337545,
+            28.144167
+          ],
+          [
+            85.338556,
+            28.144611
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#131",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.338556,
+            28.144611
+          ],
+          [
+            85.339568,
+            28.145025
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#132",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.339568,
+            28.145025
+          ],
+          [
+            85.340581,
+            28.145408
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#133",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.340581,
+            28.145408
+          ],
+          [
+            85.341593,
+            28.145759
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#134",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.341593,
+            28.145759
+          ],
+          [
+            85.342607,
+            28.146077
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#135",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.342607,
+            28.146077
+          ],
+          [
+            85.34362,
+            28.146361
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#136",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.34362,
+            28.146361
+          ],
+          [
+            85.344635,
+            28.14661
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#137",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.344635,
+            28.14661
+          ],
+          [
+            85.34565,
+            28.146824
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#138",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.34565,
+            28.146824
+          ],
+          [
+            85.346665,
+            28.147003
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#139",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.346665,
+            28.147003
+          ],
+          [
+            85.347681,
+            28.147145
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#140",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.347681,
+            28.147145
+          ],
+          [
+            85.348698,
+            28.14725
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#141",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.348698,
+            28.14725
+          ],
+          [
+            85.349715,
+            28.147318
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#142",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.349715,
+            28.147318
+          ],
+          [
+            85.350733,
+            28.14735
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#143",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.350733,
+            28.14735
+          ],
+          [
+            85.351751,
+            28.147344
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#144",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.351751,
+            28.147344
+          ],
+          [
+            85.35277,
+            28.147301
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#145",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.35277,
+            28.147301
+          ],
+          [
+            85.353789,
+            28.147221
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#146",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.353789,
+            28.147221
+          ],
+          [
+            85.354809,
+            28.147105
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#147",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.354809,
+            28.147105
+          ],
+          [
+            85.35583,
+            28.146952
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#148",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.35583,
+            28.146952
+          ],
+          [
+            85.356851,
+            28.146764
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#149",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.356851,
+            28.146764
+          ],
+          [
+            85.357873,
+            28.14654
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#150",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.357873,
+            28.14654
+          ],
+          [
+            85.358895,
+            28.146282
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#151",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.358895,
+            28.146282
+          ],
+          [
+            85.359917,
+            28.145989
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#152",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.359917,
+            28.145989
+          ],
+          [
+            85.360941,
+            28.145664
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#153",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.360941,
+            28.145664
+          ],
+          [
+            85.361964,
+            28.145306
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#154",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.361964,
+            28.145306
+          ],
+          [
+            85.362988,
+            28.144917
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#155",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.362988,
+            28.144917
+          ],
+          [
+            85.364013,
+            28.144499
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#156",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.364013,
+            28.144499
+          ],
+          [
+            85.365038,
+            28.144051
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#157",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.365038,
+            28.144051
+          ],
+          [
+            85.366063,
+            28.143576
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#158",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.366063,
+            28.143576
+          ],
+          [
+            85.367089,
+            28.143074
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#159",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.367089,
+            28.143074
+          ],
+          [
+            85.368115,
+            28.142548
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#160",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.368115,
+            28.142548
+          ],
+          [
+            85.369142,
+            28.141998
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#161",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.369142,
+            28.141998
+          ],
+          [
+            85.370169,
+            28.141427
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#162",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.370169,
+            28.141427
+          ],
+          [
+            85.371196,
+            28.140835
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#163",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.371196,
+            28.140835
+          ],
+          [
+            85.372223,
+            28.140225
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#164",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.372223,
+            28.140225
+          ],
+          [
+            85.373251,
+            28.139597
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#165",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.373251,
+            28.139597
+          ],
+          [
+            85.374279,
+            28.138955
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#166",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.374279,
+            28.138955
+          ],
+          [
+            85.375307,
+            28.138299
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#167",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.375307,
+            28.138299
+          ],
+          [
+            85.376335,
+            28.137632
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#168",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.376335,
+            28.137632
+          ],
+          [
+            85.377363,
+            28.136955
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#169",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.377363,
+            28.136955
+          ],
+          [
+            85.378392,
+            28.13627
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#170",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.378392,
+            28.13627
+          ],
+          [
+            85.37942,
+            28.13558
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#171",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.37942,
+            28.13558
+          ],
+          [
+            85.380449,
+            28.134886
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#172",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.380449,
+            28.134886
+          ],
+          [
+            85.381477,
+            28.134189
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#173",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.381477,
+            28.134189
+          ],
+          [
+            85.382506,
+            28.133493
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#174",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.382506,
+            28.133493
+          ],
+          [
+            85.383534,
+            28.132799
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#175",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.383534,
+            28.132799
+          ],
+          [
+            85.384563,
+            28.132108
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#176",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.384563,
+            28.132108
+          ],
+          [
+            85.385591,
+            28.131423
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#177",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.385591,
+            28.131423
+          ],
+          [
+            85.386619,
+            28.130746
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#178",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.386619,
+            28.130746
+          ],
+          [
+            85.387647,
+            28.130078
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#179",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.387647,
+            28.130078
+          ],
+          [
+            85.388675,
+            28.129422
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#180",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.388675,
+            28.129422
+          ],
+          [
+            85.389703,
+            28.128779
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#181",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.389703,
+            28.128779
+          ],
+          [
+            85.39073,
+            28.128151
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#182",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.39073,
+            28.128151
+          ],
+          [
+            85.391757,
+            28.12754
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#183",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.391757,
+            28.12754
+          ],
+          [
+            85.392784,
+            28.126948
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#184",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.392784,
+            28.126948
+          ],
+          [
+            85.393811,
+            28.126375
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#185",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.393811,
+            28.126375
+          ],
+          [
+            85.394837,
+            28.125825
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/main#186",
+        "highway_type": "primary",
+        "bridge": false,
+        "name": "Mock Valley Road"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279876,
+            28.121223
+          ],
+          [
+            85.279889,
+            28.120411
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-north#0",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279889,
+            28.120411
+          ],
+          [
+            85.279902,
+            28.119599
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-north#1",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279902,
+            28.119599
+          ],
+          [
+            85.279915,
+            28.118786
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-north#2",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279915,
+            28.118786
+          ],
+          [
+            85.279928,
+            28.117974
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-north#3",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279928,
+            28.117974
+          ],
+          [
+            85.279941,
+            28.117162
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-north#4",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279941,
+            28.117162
+          ],
+          [
+            85.279955,
+            28.11626
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#0",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279955,
+            28.11626
+          ],
+          [
+            85.27997,
+            28.115358
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#1",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.27997,
+            28.115358
+          ],
+          [
+            85.279984,
+            28.114455
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#2",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279984,
+            28.114455
+          ],
+          [
+            85.279998,
+            28.113553
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#3",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279998,
+            28.113553
+          ],
+          [
+            85.280013,
+            28.112651
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#4",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280013,
+            28.112651
+          ],
+          [
+            85.280027,
+            28.111748
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#5",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280027,
+            28.111748
+          ],
+          [
+            85.280042,
+            28.110846
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#6",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280042,
+            28.110846
+          ],
+          [
+            85.280056,
+            28.109944
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#7",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280056,
+            28.109944
+          ],
+          [
+            85.28007,
+            28.109042
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/bridge-1#8",
+        "highway_type": "track",
+        "bridge": true,
+        "name": "Mock Bridge"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.28007,
+            28.109042
+          ],
+          [
+            85.280084,
+            28.108184
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#0",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280084,
+            28.108184
+          ],
+          [
+            85.280098,
+            28.107327
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#1",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280098,
+            28.107327
+          ],
+          [
+            85.280111,
+            28.10647
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#2",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280111,
+            28.10647
+          ],
+          [
+            85.280125,
+            28.105613
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#3",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280125,
+            28.105613
+          ],
+          [
+            85.280139,
+            28.104756
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#4",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280139,
+            28.104756
+          ],
+          [
+            85.280152,
+            28.103898
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#5",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280152,
+            28.103898
+          ],
+          [
+            85.280166,
+            28.103041
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#6",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280166,
+            28.103041
+          ],
+          [
+            85.28018,
+            28.102184
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#7",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.28018,
+            28.102184
+          ],
+          [
+            85.280193,
+            28.101327
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#8",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280193,
+            28.101327
+          ],
+          [
+            85.280207,
+            28.10047
+          ]
+        ]
+      },
+      "properties": {
+        "id": "way/branch-south#9",
+        "highway_type": "track",
+        "bridge": false,
+        "name": "Village D track"
+      }
+    }
+  ],
+  "provenance": {
+    "producer": "mock.osm",
+    "source": "MOCK synthetic OSM-like data",
+    "crs": "EPSG:4326",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

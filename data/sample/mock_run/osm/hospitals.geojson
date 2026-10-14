@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.214356,
+          28.142144
+        ]
+      },
+      "properties": {
+        "id": "node/H1",
+        "name": "Mock District Hospital",
+        "destination_type": "hospital"
+      }
+    }
+  ],
+  "provenance": {
+    "producer": "mock.osm",
+    "source": "MOCK synthetic OSM-like data",
+    "crs": "EPSG:4326",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

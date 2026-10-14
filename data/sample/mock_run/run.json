@@ -1,0 +1,84 @@
+{
+  "contract_version": "1.0",
+  "run_id": "a6e0bcd0",
+  "aoi": {
+    "name": "mock-valley",
+    "west": 85.2,
+    "south": 28.05,
+    "east": 85.4,
+    "north": 28.2
+  },
+  "event_date": "2026-08-26",
+  "config_fingerprint": "7f39180b5eceea4ede73cc310c8d451fb091acda",
+  "model_version": "unet-baseline-0",
+  "created_utc": "2026-10-14T14:50:52+00:00",
+  "is_mock": true,
+  "config": {
+    "sentinel1": {
+      "backend": "auto",
+      "gap_multiple_days": 6,
+      "search_window_days": 40,
+      "min_coverage": 0.95,
+      "min_coverage_relaxed": 0.6,
+      "snap_mem_gb": 8,
+      "snap_dem_path": "",
+      "local": {
+        "before": "",
+        "after": "",
+        "before_date": "",
+        "after_date": "",
+        "relative_orbit": 0,
+        "orbit_direction": ""
+      }
+    },
+    "sentinel2": {
+      "enabled": false
+    },
+    "dem": {
+      "local_path": ""
+    },
+    "osm": {
+      "provider": "ohsome",
+      "overpass_fallback": true,
+      "snapshot_date": "2026-07-27",
+      "network_buffer_km": 5
+    },
+    "model": {
+      "version": "unet-baseline-0",
+      "use_unet": true,
+      "package": "models/release/model_package",
+      "weights_path": "models/release/unet_best.pt",
+      "device": "auto",
+      "tta": false
+    },
+    "infer": {
+      "exclude_permanent_water": true,
+      "mask_unreliable_terrain": true,
+      "use_optical_evidence": true,
+      "min_blob_pixels": 10,
+      "fill_hole_pixels": 8,
+      "drop_db": 3.0,
+      "water_db": -15.0,
+      "detect_debris": true,
+      "debris_change_db": 4.0,
+      "river_db": -18.0,
+      "smooth_px": 2,
+      "debris_max_slope_deg": 15.0,
+      "debris_max_dist_m": 1000.0
+    },
+    "damage": {
+      "min_impact_fraction": 0.1,
+      "major_impact_fraction": 0.5,
+      "road_min_block_m": 20,
+      "edge_buffer_m": 10,
+      "min_flood_patch_m2": 1000
+    },
+    "connectivity": {
+      "block_flooded_bridges": true,
+      "include_footpaths": false,
+      "max_snap_m": 1500,
+      "detour_ratio": 1.5,
+      "detour_extra_min": 30
+    }
+  }
+}

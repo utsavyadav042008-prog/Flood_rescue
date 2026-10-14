@@ -1,0 +1,36 @@
+{
+  "flood_area_km2": 9.84,
+  "affected_roads": 12,
+  "affected_road_length_km": 1.17,
+  "affected_bridges": 1,
+  "affected_buildings": 17,
+  "cutoff_settlements": 3,
+  "cutoff_names": [
+    "Village B",
+    "Village C",
+    "Village D"
+  ],
+  "mean_confidence": 0.839,
+  "aoi_name": "mock-valley",
+  "event_date": "2026-08-26",
+  "before_date": "2026-08-20",
+  "after_date": "2026-09-01",
+  "sentinel1_orbit": "MOCK 99 ASCENDING",
+  "crs": "EPSG:32645",
+  "model_version": "unet-baseline-0",
+  "osm_snapshot_date": "2026-07-27",
+  "processing_date": "2026-10-14T14:50:52+00:00",
+  "is_mock": true,
+  "warnings": [
+    "MOCK DATA - synthetic scenario, not a real result."
+  ],
+  "provenance": {
+    "producer": "mock.summarize",
+    "source": "MOCK",
+    "crs": "EPSG:4326",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

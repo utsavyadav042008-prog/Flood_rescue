@@ -1,0 +1,15 @@
+{
+  "affected_roads": 12,
+  "affected_road_length_km": 1.17,
+  "affected_bridges": 1,
+  "affected_buildings": 17,
+  "provenance": {
+    "producer": "mock.gis",
+    "source": "MOCK",
+    "crs": "EPSG:4326",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

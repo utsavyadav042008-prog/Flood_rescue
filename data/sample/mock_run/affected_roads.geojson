@@ -1,0 +1,290 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.307395,
+            28.119008
+          ],
+          [
+            85.308422,
+            28.118455
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/main#101",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 0.2,
+        "confidence": 0.63
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.308422,
+            28.118455
+          ],
+          [
+            85.309442,
+            28.118334
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/main#102",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 1.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.309442,
+            28.118334
+          ],
+          [
+            85.310452,
+            28.118803
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/main#103",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 1.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.310452,
+            28.118803
+          ],
+          [
+            85.311453,
+            28.119895
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/main#104",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 1.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.311453,
+            28.119895
+          ],
+          [
+            85.312446,
+            28.121503
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/main#105",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 0.6,
+        "confidence": 0.79
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279955,
+            28.11626
+          ],
+          [
+            85.27997,
+            28.115358
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/bridge-1#1",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 0.8,
+        "confidence": 0.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.27997,
+            28.115358
+          ],
+          [
+            85.279984,
+            28.114455
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/bridge-1#2",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 1.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279984,
+            28.114455
+          ],
+          [
+            85.279998,
+            28.113553
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/bridge-1#3",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 1.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.279998,
+            28.113553
+          ],
+          [
+            85.280013,
+            28.112651
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/bridge-1#4",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 1.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280013,
+            28.112651
+          ],
+          [
+            85.280027,
+            28.111748
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/bridge-1#5",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 1.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280027,
+            28.111748
+          ],
+          [
+            85.280042,
+            28.110846
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/bridge-1#6",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 1.0,
+        "confidence": 0.95
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            85.280042,
+            28.110846
+          ],
+          [
+            85.280056,
+            28.109944
+          ]
+        ]
+      },
+      "properties": {
+        "object_id": "way/bridge-1#7",
+        "object_type": "road",
+        "impact_status": "affected",
+        "impact_fraction": 0.8,
+        "confidence": 0.87
+      }
+    }
+  ],
+  "provenance": {
+    "producer": "mock.gis",
+    "source": "MOCK mask x MOCK OSM",
+    "crs": "EPSG:4326",
+    "event_date": "2026-08-26",
+    "model_version": "unet-baseline-0",
+    "processing_date": "2026-10-14T14:50:52+00:00",
+    "is_mock": true
+  }
+}

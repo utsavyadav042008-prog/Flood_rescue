@@ -465,6 +465,36 @@ def load_graph(path: str | Path) -> nx.MultiGraph:
 
 
 # --------------------------------------------------------------------------
+# STEP 10 — SEGMENTS WITH STABLE IDS  (added during integration)
+# --------------------------------------------------------------------------
+def split_roads_to_segments(roads: gpd.GeoDataFrame, id_col: str = "id",
+                            grid: float = SNAP_GRID_M) -> gpd.GeoDataFrame:
+    """Road WAYS -> road SEGMENTS (split at shared junction vertices), EPSG:4326.
+
+    Every segment gets ``id = "<way id>#<k>"`` where k counts the pieces of that
+    way in order.  The data contract (``osm/roads.geojson``) stores these
+    segments, so the damage stage, the connectivity stage and the oracle all
+    talk about the SAME graph edges by the same ids.  Splitting reuses steps 2-4
+    above (project, snap, split at shared vertices only - TRICK #2), so a bridge
+    crossing a road without a shared node is NOT turned into a junction.
+    """
+    gdf = load_roads(roads)
+    if gdf.empty:
+        out = gdf.iloc[0:0].copy()
+        out["way_id"] = []
+        return out.to_crs(4326)
+    gdf = project_and_explode(gdf)
+    gdf = snap_to_grid(gdf, grid)
+    segs = split_at_junctions(gdf, grid)
+    segs["way_id"] = segs[id_col].astype(str)
+    k = segs.groupby("way_id", sort=False).cumcount()
+    segs[id_col] = segs["way_id"] + "#" + k.astype(str)
+    segs["length_m"] = segs.geometry.length.round(1)
+    segs = segs.drop(columns=[c for c in ("src_idx", "seg_id") if c in segs.columns])
+    return segs.to_crs(4326)
+
+
+# --------------------------------------------------------------------------
 # ORCHESTRATOR
 # --------------------------------------------------------------------------
 def build_road_graph(roads, out_dir: str | Path | None = None,
